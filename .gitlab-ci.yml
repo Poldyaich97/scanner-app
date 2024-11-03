@@ -5,7 +5,7 @@ stages:
   - deploy
 
 build:
-  image: node:20 # Run the job in a `node` docker image
+  image: docker-proxy.kontur.host/node:20-alpine # Run the job in a `node` docker image
   stage: build
   script:
     - npm install
