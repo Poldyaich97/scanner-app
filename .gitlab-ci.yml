@@ -15,7 +15,7 @@ build:
       - build/ # Save the build result as an artfact
 
 pages:
-  image: alpine:latest
+  image: docker-proxy.kontur.host/alpine:latest
   stage: deploy
   variables:
     GIT_STRATEGY: none # Do not clone git repo
