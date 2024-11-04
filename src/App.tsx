@@ -14,9 +14,7 @@ export default function App() {
 
   // Функция parseScannedData: извлекает серийный номер и ссылку, если они присутствуют
   const parseScannedData = (data: string) => {
-    const match = data.match(
-      /^[a-zA-Z]*([A-Za-z0-9]+)\s*(https?:\/\/[^\s]+)?$/
-    );
+    const match = data.match(/^([A-Za-z0-9]+)\s*(https?:\/\/[^\s]+)?$/);
     return match ? { serialNumber: match[1], link: match[2] } : null;
   };
 
