@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/scanner-app/static/css/main.750e38d9.css",
-    "main.js": "/scanner-app/static/js/main.2100f0fe.js",
+    "main.js": "/scanner-app/static/js/main.7257f718.js",
     "static/js/453.674c82b6.chunk.js": "/scanner-app/static/js/453.674c82b6.chunk.js",
     "index.html": "/scanner-app/index.html",
     "main.750e38d9.css.map": "/scanner-app/static/css/main.750e38d9.css.map",
-    "main.2100f0fe.js.map": "/scanner-app/static/js/main.2100f0fe.js.map",
+    "main.7257f718.js.map": "/scanner-app/static/js/main.7257f718.js.map",
     "453.674c82b6.chunk.js.map": "/scanner-app/static/js/453.674c82b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.750e38d9.css",
-    "static/js/main.2100f0fe.js"
+    "static/js/main.7257f718.js"
   ]
 }
